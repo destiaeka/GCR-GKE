@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>First Project GCE-GKR</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>First Project GCE-GKR 🚀</h1>
+
+    <section class="card">
+      <h2>🧱 GCR (Google Container Registry)</h2>
+      <p>
+        Google Container Registry (GCR) adalah layanan dari Google Cloud yang digunakan
+        untuk <strong>menyimpan dan mengelola container image</strong>, mirip seperti
+        <strong>Docker Hub</strong>. Dengan GCR, kita bisa menyimpan hasil build image
+        aplikasi, lalu mengaksesnya kembali untuk deployment di layanan Google Cloud
+        seperti GKE atau Cloud Run.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>☸️ GKE (Google Kubernetes Engine)</h2>
+      <p>
+        Google Kubernetes Engine (GKE) adalah layanan yang menggunakan
+        <strong>Kubernetes</strong> untuk <strong>menyederhanakan proses deployment,
+        pengelolaan, dan penskalaan container</strong>.
+      </p>
+      <p>
+        Bedanya dengan Kubernetes manual, GKE mengelola infrastruktur secara otomatis.
+        Bayangin gini:
+      </p>
+      <blockquote>
+        Kalau pakai Kubernetes biasa, kamu harus nyetir sendiri, isi bensin, dan rawat
+        mesin. Tapi kalau pakai GKE, kamu cukup bilang mau ke mana (deploy aplikasimu),
+        dan Google yang urus sisanya — nyalain mesin, isi bensin, sampai perawatan.
+      </blockquote>
+    </section>
+
+    <section class="card">
+      <h2>🔄 Hubungan GCR & GKE</h2>
+      <ol>
+        <li>Build image aplikasi.</li>
+        <li>Push image ke <strong>GCR</strong>.</li>
+        <li>Deploy ke <strong>GKE</strong> yang akan menarik image dari GCR.</li>
+      </ol>
+    </section>
+  </div>
+</body>
+</html>
