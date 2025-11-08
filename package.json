@@ -1,0 +1,12 @@
+{
+  "name": "gce-gkr-app",
+  "version": "1.0.0",
+  "description": "Simple web explaining GCR & GKE using Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
